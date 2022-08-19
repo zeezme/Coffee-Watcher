@@ -10,7 +10,9 @@ var productRouter = require('./routes/productRoute');
 const db = require ('./config/db.config');
 const Product = require('./Models/product');
 
+
 var app = express();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
